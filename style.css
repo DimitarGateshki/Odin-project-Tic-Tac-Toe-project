@@ -75,6 +75,7 @@ border-radius: 0  0 50px  50px ;
     height: 150px;
     border: 1px solid var(--header-and-footer-color);
     background-color: var(--board-color);
+    color: var(--header-and-footer-color);
     font-size: 100px;
     text-align: center;
     cursor: pointer;
@@ -83,6 +84,14 @@ border-radius: 0  0 50px  50px ;
 
 .field:hover{
     filter: brightness(90%);
+}
+
+.fieldX{
+    color: var(--bacgroun-and-x-color);
+}
+
+.fieldO{
+    color: var(--circle-color);
 }
 
 .center{
